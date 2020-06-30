@@ -1,0 +1,99 @@
+# *Project Getting and Cleaning Data Course Code Book*
+
+# Modifications
+
+## the original data was modifies by
+
+* Merging the training and the test sets to create one data set.
+* Extracting only the measurements on the mean and standard deviation for each measurement.
+* Useing descriptive activity names to name the activities in the data set
+* Appropriately labeling the data set with descriptive variable names.
+* Creating a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+## Identififiers
+The first two columns - Subject and Activity - are Identifiers.
+* Activity: the Name of the Activity performed by the subject when measurements were taken.
+* Subject: the ID of the Subject.
+
+## Measurements
+the variables remaining are just the calculate means and standard deviations of these sets of data:
+
+* TimeDomain_BodyAccelerometer_Mean_X
+* TimeDomain_BodyAccelerometer_Mean_Y
+* TimeDomain_BodyAccelerometer_Mean_Z
+* TimeDomain_BodyAccelerometer_StandardDeviation_X
+* TimeDomain_BodyAccelerometer_StandardDeviation_Y
+* TimeDomain_BodyAccelerometer_StandardDeviation_Z
+* TimeDomain_GravityAccelerometer_Mean_X
+* TimeDomain_GravityAccelerometer_Mean_Y
+* TimeDomain_GravityAccelerometer_Mean_Z
+* TimeDomain_GravityAccelerometer_StandardDeviation_X
+* TimeDomain_GravityAccelerometer_StandardDeviation_Y
+* TimeDomain_GravityAccelerometer_StandardDeviation_Y
+* TimeDomain_BodyAccelerometerJerk_Mean_X
+* TimeDomain_BodyAccelerometerJerk_Mean_Y
+* TimeDomain_BodyAccelerometerJerk_Mean_Z
+* TimeDomain_BodyAccelerometerJerk_StandardDeviation_X
+* TimeDomain_BodyAccelerometerJerk_StandardDeviation_Y
+* TimeDomain_BodyAccelerometerJerk_StandardDeviation_Z
+* TimeDomain_BodyGyroscope_Mean_X
+* TimeDomain_BodyGyroscope_Mean_Y
+* TimeDomain_BodyGyroscope_Mean_Z
+* TimeDomain_BodyGyroscope_StandardDeviation_X
+* TimeDomain_BodyGyroscope_StandardDeviation_Y
+* TimeDomain_BodyGyroscope_StandardDeviation_Z
+* TimeDomain_BodyGyroscopeJerk_Mean_X
+* TimeDomain_BodyGyroscopeJerk_Mean_Y
+* TimeDomain_BodyGyroscopeJerk_Mean_Z
+* TimeDomain_BodyGyroscopeJerk_StandardDeviation_X
+* TimeDomain_BodyGyroscopeJerk_StandardDeviation_Y
+* TimeDomain_BodyGyroscopeJerk_StandardDeviation_Z
+* TimeDomain_BodyAccelerometerMagnitude_mean
+* TimeDomain_BodyAccelerometerMagnitude_std
+* TimeDomain_GravityAccelerometerMagnitude_mean
+* TimeDomain_GravityAccelerometerMagnitude_std
+* TimeDomain_BodyAccelerometerJerkMagnitude_mean
+* TimeDomain_BodyAccelerometerJerkMagnitude_std
+* TimeDomain_BodyGyroscopeMagnitude_mean
+* TimeDomain_BodyGyroscopeMagnitude_std
+* TimeDomain_BodyGyroscopeJerkMagnitude_mean
+* TimeDomain_BodyGyroscopeJerkMagnitude_std
+* FrequencyDomain_BodyAccelerometer_Mean_X
+* FrequencyDomain_BodyAccelerometer_Mean_Y
+* FrequencyDomain_BodyAccelerometer_Mean_Z
+* FrequencyDomain_BodyAccelerometer_StandardDeviation_X
+* FrequencyDomain_BodyAccelerometer_StandardDeviation_Y
+* FrequencyDomain_BodyAccelerometer_StandardDeviation_Z
+* FrequencyDomain_BodyAccelerometer_meanFreq_X
+* FrequencyDomain_BodyAccelerometer_meanFreq_Y
+* FrequencyDomain_BodyAccelerometer_meanFreq_Z
+* FrequencyDomain_BodyAccelerometerJerk_Mean_X
+* FrequencyDomain_BodyAccelerometerJerk_Mean_Y
+* FrequencyDomain_BodyAccelerometerJerk_Mean_Z
+* FrequencyDomain_BodyAccelerometerJerk_StandardDeviation_X
+* FrequencyDomain_BodyAccelerometerJerk_StandardDeviation_Y
+* FrequencyDomain_BodyAccelerometerJerk_StandardDeviation_Z
+* FrequencyDomain_BodyAccelerometerJerk_meanFreq_X
+* FrequencyDomain_BodyAccelerometerJerk_meanFreq_Y
+* FrequencyDomain_BodyAccelerometerJerk_meanFreq_Z
+* FrequencyDomain_BodyGyroscope_Mean_X
+* FrequencyDomain_BodyGyroscope_Mean_Y
+* FrequencyDomain_BodyGyroscope_Mean_Z
+* FrequencyDomain_BodyGyroscope_StandardDeviation_X
+* FrequencyDomain_BodyGyroscope_StandardDeviation_Y
+* FrequencyDomain_BodyGyroscope_StandardDeviation_Z
+* FrequencyDomain_BodyGyroscope_meanFreq_X
+* FrequencyDomain_BodyGyroscope_meanFreq_Y
+* FrequencyDomain_BodyGyroscope_meanFreq_Z
+* FrequencyDomain_BodyAccelerometerMagnitude_mean
+* FrequencyDomain_BodyAccelerometerMagnitude_std
+* FrequencyDomain_BodyAccelerometerMagnitude_meanFreq
+* FrequencyDomain_BodyBodyAccelerometerJerkMagnitude_mean
+* FrequencyDomain_BodyBodyAccelerometerJerkMagnitude_std
+* FrequencyDomain_BodyBodyAccelerometerJerkMagnitude_meanFreq
+* FrequencyDomain_BodyBodyGyroscopeMagnitude_mean
+* FrequencyDomain_BodyBodyGyroscopeMagnitude_std
+* FrequencyDomain_BodyBodyGyroscopeMagnitude_meanFreq
+* FrequencyDomain_BodyBodyGyroscopeJerkMagnitude_mean
+* FrequencyDomain_BodyBodyGyroscopeJerkMagnitude_std
+* FrequencyDomain_BodyBodyGyroscopeJerkMagnitude_meanFreq
