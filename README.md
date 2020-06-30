@@ -7,8 +7,6 @@ Here are the data for the project:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-### Contents
-
 # Files
 - `CodeBook.md` describes the variables, the data, and any work that are performed to clean up the data.
 
